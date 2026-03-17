@@ -45,7 +45,7 @@ locomotive_mk2.allow_custom_color = false
 locomotive_mk2.max_speed = 2.0 
 locomotive_mk2.max_power = "6000kW"
 locomotive_mk2.weight = 3000
-locomotive_mk2.breaking_force = 40
+locomotive_mk2.braking_force = 40
 
 locomotive_mk2.minable = {
     mining_time = 0.5, 
