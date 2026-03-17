@@ -31,8 +31,8 @@ cargo_wagon_mk2.name = "cargo-wagon-mk2"
 -- We still set the base mask color just in case any UI elements rely on it
 cargo_wagon_mk2.color = {r = 0, g = 0.2, b = 1, a = 1.0} 
 cargo_wagon_mk2.allow_custom_color = false
-cargo_wagon_mk2.inventory_size = 500
-cargo_wagon_mk2.weight = 8000
+cargo_wagon_mk2.inventory_size = 512
+cargo_wagon_mk2.weight = 4000
 
 -- Make sure picking it up gives you the Mk2 item
 cargo_wagon_mk2.minable = {
@@ -55,8 +55,9 @@ locomotive_mk2.name = "locomotive-mk2"
 locomotive_mk2.color = {r = 0, g = 0.2, b = 1, a = 1.0}
 locomotive_mk2.allow_custom_color = false
 locomotive_mk2.max_speed = 2.0 
-locomotive_mk2.max_power = "3000kW"
+locomotive_mk2.max_power = "6000kW"
 locomotive_mk2.weight = 3000
+locomotive_mk2.breaking_force = 40
 
 -- Make sure picking it up gives you the Mk2 item
 locomotive_mk2.minable = {
