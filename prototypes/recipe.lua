@@ -15,7 +15,7 @@ cargo_wagon_mk2.ingredients = {
     {type = "item", name = "low-density-structure", amount = 50},
     {type = "item", name = "iron-gear-wheel", amount = 100},
     {type = "item", name = "plastic-bar", amount = 50},
-    {type = "item", name = "steel", amount = 100},
+    {type = "item", name = "steel-plate", amount = 100},
     {type = "item", name = "processing-unit", amount = 20},
     {type = "fluid", name = "lubricant", amount = 100}
 }
@@ -26,7 +26,7 @@ locomotive_mk2.ingredients = {
     {type = "item", name = "low-density-structure", amount = 75},
     {type = "item", name = "iron-gear-wheel", amount = 150},
     {type = "item", name = "plastic-bar", amount = 50},
-    {type = "item", name = "steel", amount = 100},
+    {type = "item", name = "steel-plate", amount = 100},
     {type = "item", name = "processing-unit", amount = 30},
     {type = "fluid", name = "lubricant", amount = 100}
 }
